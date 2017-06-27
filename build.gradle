@@ -2,23 +2,23 @@ group 'org.ayo_u'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.1.1'
+  ext.kotlin_version = '1.1.1'
     repositories {
-        mavenCentral()
+      mavenCentral()
     }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+  }
 }
 
 apply plugin: 'kotlin2js'
 
 repositories {
-    mavenCentral()
+  mavenCentral()
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+  compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
 }
 
 compileKotlin2Js.kotlinOptions {
