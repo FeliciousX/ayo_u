@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "watch": [
+    "node/index.js"
+  ]
+}
