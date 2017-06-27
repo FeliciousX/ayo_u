@@ -1,0 +1,27 @@
+{
+  "name": "ayo_u_backend",
+  "version": "0.0.1",
+  "description": "debt management ayo u backend",
+  "main": "node/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliciousX/ayo_u.git"
+  },
+  "keywords": [
+    "debt",
+    "ayo_u"
+  ],
+  "author": "FeliciousX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FeliciousX/ayo_u/issues"
+  },
+  "homepage": "https://github.com/FeliciousX/ayo_u#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "kotlin": "^1.1.0"
+  }
+}
