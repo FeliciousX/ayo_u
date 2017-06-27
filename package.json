@@ -4,6 +4,9 @@
   "description": "debt management ayo u backend",
   "main": "node/index.js",
   "scripts": {
+    "start": "nodemon node/index.js",
+    "build": "gradle build",
+    "build:watch": "gradle build --continuous",
     "test": "npm run test"
   },
   "repository": {
@@ -23,5 +26,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "kotlin": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
